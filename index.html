@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ohyon B.V. · AI Consultancy, Amsterdam</title>
+<meta name="description" content="Ohyon is the Amsterdam-based AI consultancy of Ayala Ohyon. Strategy, development and deployment of AI solutions, from idea to production.">
+<style>
+  :root {
+    --bg: #faf9f7;
+    --ink: #1c1b1a;
+    --muted: #6b6862;
+    --accent: #2f5d50;
+    --line: #e7e4de;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161514;
+      --ink: #ece9e4;
+      --muted: #a09c94;
+      --accent: #8fbfae;
+      --line: #33312e;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+  header { padding: 96px 0 64px; }
+  .logo {
+    font-size: 15px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-size: clamp(32px, 6vw, 48px);
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lede { font-size: 19px; color: var(--muted); max-width: 560px; }
+  section { padding: 44px 0; border-top: 1px solid var(--line); }
+  h2 {
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  .service { max-width: 600px; }
+  .service + .service { margin-top: 28px; }
+  .service h3 { font-size: 17px; font-weight: 650; margin-bottom: 6px; }
+  .service p { font-size: 16px; color: var(--muted); }
+  p a, h3 a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  p a:hover, h3 a:hover { text-decoration: underline; }
+  .about { display: flex; gap: 28px; align-items: flex-start; }
+  .about p { color: var(--muted); font-size: 16px; }
+  .about strong { color: var(--ink); }
+  .portrait {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  @media (max-width: 560px) {
+    .about { flex-direction: column; }
+  }
+  .contact p { font-size: 17px; max-width: 560px; }
+  footer {
+    padding: 48px 0 64px;
+    border-top: 1px solid var(--line);
+    font-size: 14px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">Ohyon</div>
+      <h1>AI, from idea to production.</h1>
+      <p class="lede">The hard part of AI is not building smarter models. It is making them work in the complexity of a real organisation. Ohyon is the Amsterdam-based consultancy of Ayala Ohyon, helping teams take AI from idea to production.</p>
+    </header>
+
+    <section>
+      <h2>What I do</h2>
+      <div class="service">
+        <h3>Strategy and roadmapping</h3>
+        <p>Clear advice on where AI fits your organisation: which use cases are worth the investment, what to build first, and what it takes to get it live.</p>
+      </div>
+      <div class="service">
+        <h3>Building AI solutions</h3>
+        <p>Design and development of AI systems, from machine learning models to LLM applications, including the engineering needed to run them reliably in production.</p>
+      </div>
+      <div class="service">
+        <h3>Fast, AI-assisted delivery</h3>
+        <p>I build with the latest AI-assisted development tools. It is how a one-person studio delivers at the pace of a small team, at a fraction of the cost.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Recent work</h2>
+      <div class="service">
+        <h3>Microsoft</h3>
+        <p>Voice research for a text-to-speech application.</p>
+      </div>
+      <div class="service">
+        <h3><a href="https://www.doodler.app/">Doodler</a></h3>
+        <p>A visual AI tool that supports psychologists in their work with clients.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>About</h2>
+      <div class="about">
+        <img src="ayala.jpg" alt="Portrait of Ayala Ohyon" class="portrait">
+        <p>I'm <strong>Ayala Ohyon</strong>. I have spent the past nine years bringing AI into production: at <strong>Miro</strong> I led the data science teams behind Miro AI, at <strong>Thoughtworks</strong> I delivered AI projects for clients like <strong>Daimler</strong> and <strong>Mondelez</strong>, and at <strong>Schiphol Airport</strong> I built models for passenger flow and security planning. In 2025 I started Ohyon to do this work independently. Technical enough to build, strategic enough to scale, and curious enough to keep asking questions.</p>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Want to talk through an idea? Email me at <a href="mailto:ayala@ohyon.nl">ayala@ohyon.nl</a> or find me on <a href="https://www.linkedin.com/in/ayalaohyon/">LinkedIn</a>.</p>
+    </section>
+
+    <footer>
+      © 2026 Ohyon B.V. · Amsterdam, the Netherlands
+    </footer>
+  </div>
+</body>
+</html>
